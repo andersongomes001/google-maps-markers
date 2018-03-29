@@ -1,0 +1,26 @@
+{
+  "name": "gerador_de_markers_maps",
+  "version": "1.0.0",
+  "description": "Gerador de markers para maps do google",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "dev": "npm install --silent & node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersongomes001/google-maps-markers.git"
+  },
+  "author": "andersongomes001",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andersongomes001/google-maps-markers/issues"
+  },
+  "homepage": "https://github.com/andersongomes001/google-maps-markers#readme",
+  "dependencies": {
+    "image-clipper": "^0.4.3",
+    "image-downloader": "^3.3.0",
+    "resize-img": "^1.1.2",
+    "sharp": "^0.20.1"
+  }
+}
